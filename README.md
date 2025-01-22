@@ -23,4 +23,4 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-To learn more about the project watch the video - [https://youtu.be/ePbamLbqTZo](Astro JS 30 min challenge)
+To learn more about the project watch the video - [Astro JS 30 min Challenge](https://youtu.be/ePbamLbqTZo)
