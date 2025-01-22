@@ -7,21 +7,21 @@ import Contact from "../components/Contact.astro";
 const projects = [
 	{
 		title:"Project One",
-		link:"/portfolio",
+		link:"/",
 		imageURL:"https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ipsum alias, eos asperiores error quasi aspernatur? Laudantium doloremque qui dolorum maiores, eum veritatis! Exercitationem, tempore dolor! Provident, commodi culpa."
 
 	},
 	{
 		title:"Project Two",
-		link:"/portfolio",
+		link:"/",
 		imageURL:"https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ipsum alias, eos asperiores error quasi aspernatur? Laudantium doloremque qui dolorum maiores, eum veritatis! Exercitationem, tempore dolor! Provident, commodi culpa."
 
 	},
 	{
 		title:"Project Three",
-		link:"/portfolio",
+		link:"/",
 		imageURL:"https://images.unsplash.com/photo-1507955987999-df4864ee80d4?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae ipsum alias, eos asperiores error quasi aspernatur? Laudantium doloremque qui dolorum maiores, eum veritatis! Exercitationem, tempore dolor! Provident, commodi culpa."
 
@@ -30,8 +30,8 @@ const projects = [
 
 ---
 <Layout>
-	<Hero href="/" title='Jane Doe' desc='I am a freelance web developer based in the UK, Here are some of my projects, feel free to get in touch' />
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+	<Hero href="/" title='My Portfolio' desc='I am a freelance web developer based in the UK, Here are some of my projects, feel free to get in touch' />
+	<div class="grid grid-cols-1 gap-3">
 		{
 			projects.map((project)=>(
 				<Card title={project.title} imageURL={project.imageURL} desc={project.desc} href={project.link}/>
